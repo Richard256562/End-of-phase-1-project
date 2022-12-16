@@ -1,7 +1,7 @@
 let weather = {
-   apiKey: "97a2647c4e3b90ac053eda7729346854"
+   apiKey: "97a2647c4e3b90ac053eda7729346854",
   fetchWeather : function(city )  {
-    fetch(" https://api.openweathermap.org/data/2.5/weather?q=97a2647c4e3b90ac053eda7729346854" 
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=Denver&units=metric&appid=97a2647c4e3b90ac053eda7729346854"
     +city 
     +"&units=metric&appid=" 
     + this.apiKey
@@ -10,6 +10,7 @@ let weather = {
     .then((data) => this.displayWeather (data));
 
 },
+//Display weather
  displayWeather: function(data) {
     const { name } = data;
     const { icon, description } = data.weather[0];

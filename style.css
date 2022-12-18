@@ -54,8 +54,8 @@ body {
     margin-bottom: 0.4em;
   }
    .flex {
-        display: flex;
-        align-items: center;
+    display: flex;
+    align-items: center;
   }
   
   .description {

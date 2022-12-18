@@ -8,7 +8,7 @@ let weather = {
     + this.apiKey
     )
     .then((response) => response.json())
-    .then((data) => this.displayWeather (data));
+    .then((data) => this.displayWeather  (data));
  
 },
 //Display weather
@@ -36,6 +36,11 @@ let weather = {
     this.fetchWeather(document.querySelector(".search-bar").value);
   },
 };
+
+document.querySelector(".search button").addEventListener("click", function () {
+  weather.search();
+});
+
 document
   .querySelector(".search-bar")
   .addEventListener("keyup", function (event) {

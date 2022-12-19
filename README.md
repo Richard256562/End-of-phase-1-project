@@ -5,18 +5,18 @@ Richard Okongo
 
 HOW IT WORKS
 
-My Project works through the use of an API []. I use this API to acquire the images that will be used as background images for the weather app.API obtained from "https://openweathermap.org"
+My Project works through the use of an API that works on any browser. I use this API to acquire the images that will be used as background images for the weather app.API obtained from "https://openweathermap.org"
 The weather app usese geoloaction and works to find out :
 . weather
 . windspeed
 . humidity
 . the temperature of various cities around the world.
-Once you input a city in the seaarch box it instantly returns the above while also providing a background image of something related to the city for aesthetics
+Once you input a city in the seaarch box it instantly returns the above while also providing a background image of something related to the city for aesthetics.
 
 INITIALIZING THE PROJECT
 
 To get my application you have to clone the repository to the right environment,you do this by getting into the terminal and using the commands to access the directory you wish to clone the repository into
-You can run  ; git clone github.com/Richard256562/End-of-phase-1-project
+ github link: https:// github.com/Richard256562/End-of-phase-1-project
 
 
 TEXT EDITOR

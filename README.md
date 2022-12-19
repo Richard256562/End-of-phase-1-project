@@ -1,15 +1,35 @@
 WEATHER APP
 
+AUTHOR
+Richard Okongo
 
 HOW IT WORKS
 
+My Project works through the use of an API []. I use this API to acquire the images that will be used as background images for the weather app.API obtained from "https://openweathermap.org"
+The weather app usese geoloaction and works to find out :
+. weather
+. windspeed
+. humidity
+. the temperature of various cities around the world.
+Once you input a city in the seaarch box it instantly returns the above while also providing a background image of something related to the city for aesthetics
 
 INITIALIZING THE PROJECT
 
+To get my application you have to clone the repository to the right environment,you do this by getting into the terminal and using the commands to access the directory you wish to clone the repository into
+You can run  ; git clone github.com/Richard256562/End-of-phase-1-project
 
 
+TEXT EDITOR
+
+Visual studio code : making use of Javascript,HTML and styling using CSS
+
+
+BUGS AND KNOWN ISSUES
+
+None at the moment .Should you find any, please reach out via: Email richard.okongo@student.moringa.com Phone:0720120031
 
 LICENSE
+
 MIT License
 
 Copyright (c) 2022 Richard256562

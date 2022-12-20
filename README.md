@@ -18,6 +18,7 @@ INITIALIZING THE PROJECT
 
 To get my application you have to clone the repository to the right environment,you do this by getting into the terminal and using the commands to access the directory you wish to clone the repository into
  github link: https:// github.com/Richard256562/End-of-phase-1-project
+ Deployment link:https://richard256562.github.io/End-of-phase-1-project/
 
 
 TEXT EDITOR
